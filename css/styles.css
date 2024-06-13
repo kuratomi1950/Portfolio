@@ -1,0 +1,838 @@
+html{
+  background: linear-gradient(300deg, #222831, #393E46, #00ADB5);
+  background-size: 200% 500%;
+  animation: gradient-animation 12s ease infinite;
+}
+
+body{
+    margin-right: 20rem;
+    margin-left: 20rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+
+.gradient-background {
+    background: linear-gradient(45deg, #222831, #393E46, #00ADB5);
+    background-size: 200% 200%;
+    animation: gradient-animation 12s ease infinite;
+    border-radius: 0.%;
+    box-shadow: 10px 10px 50px #222831;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 50% 0%;
+    }
+    50% {
+      background-position: 60% 100%;
+    }
+    100% {
+      background-position: 50% 0%;
+    }
+  }
+
+h1{
+  font-family: "Chivo Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  color: #EEEEEE;
+  text-shadow: 3px 3px 10px rgb(65, 65, 65);
+  padding-left: 1rem;
+  box-shadow: 10px 10px 50px #222831;
+  
+}
+
+h2{
+  font-family: "Chivo Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 4rem;
+  color: #00ADB5;
+  margin: 0;
+  text-shadow: 1px 1px 7px #042f31;
+  box-shadow: 10px 10px 50px #222831;
+  margin-bottom: 2rem;
+}
+
+h3{
+  font-family: "Chivo Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #00ADB5;
+  margin: 0;
+  
+}
+
+
+
+.about-section > p {
+  padding: 2rem;
+  color: #e4f9ff;
+  line-height: 2rem;
+}
+
+.bold{
+  font-weight: 700;
+  color: #EEEEEE;
+  font-size: 1.5rem;
+}
+
+
+
+.about-section{
+  font-family: "Chivo Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #EEEEEE;
+  box-shadow: 10px 10px 50px #222831;
+}
+
+.header {
+    display:grid;
+   
+    padding-left: 10rem;
+    padding-right: 1rem;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+    margin: 0;
+    padding-bottom: 3rem;
+    box-shadow: 10px 10px 50px #222831;
+    box-shadow:  inset -0.2em -0.2em 5rem 0 rgba(0,0,0,0.5);
+}
+
+
+.intro-text{
+    grid-column-start: 3;
+    grid-row-start: 2 ;
+    grid-row-end: 2 ;
+}
+
+.resume-button{
+  transition: 0.2s ease-in-out;
+  grid-column-start: 3;
+  grid-row-start: 3;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 3rem;
+  box-shadow: 10px 10px 50px #222831;
+  letter-spacing: 1px ;
+}
+
+.resume-button:hover{
+  transition: 0.2s ease-in-out;
+  grid-column-start: 3;
+  grid-row-start: 3;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 3rem;
+  box-shadow: 10px 10px 50px #0d0e11;
+  letter-spacing: 1px ;
+}
+
+.resume-button a{
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  font-family: "Chivo Mono", monospace;
+  color: #EEEEEE;
+  padding: 3rem;
+}
+
+.resume-button a:hover{
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  font-family: "Chivo Mono", monospace;
+  color: #00ADB5;
+  padding: 3rem;
+}
+
+
+.container-image{
+  grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.profile-picture {
+    align-content: center;
+    border-radius: 50%;
+    border-color: rgb(24, 221, 231);
+    border-style: solid;
+    border-width: 6px;
+    height: 37rem;
+    box-shadow: 3px 7px 30px #00ADB5;
+    
+}
+
+.intro-text{
+  width: 50rem;
+  text-wrap: wrap;
+  margin: 0;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: 25rem 25rem;
+   grid-template-rows: 1fr;
+   justify-content: center;
+   text-align: center;
+    padding-bottom: 2rem;
+    column-gap: 5rem;
+    
+}
+
+.work-section  p{
+  font-family: "Chivo Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #EEEEEE;
+
+}
+
+.credits-title{
+    text-align: center;
+    padding: 4rem;
+    
+}
+
+img{
+  padding: 0px;
+  border-radius: 10px;
+  margin-top: 2rem;  
+  margin-bottom: 1rem;  
+  box-shadow: 10px 10px 20px rgb(9, 63, 68);
+  
+}
+
+
+.personal-section{
+  box-shadow: 10px 10px 50px #222831;
+}
+
+
+.personal-container{
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+  .image-personal{
+    border-radius: 10px;   
+    height: 250px;
+    margin: 5rem;
+    margin-top: 3rem;  
+    margin-bottom: 1rem;  
+    box-shadow: 10px 10px 30px rgb(9, 63, 68);
+  }
+ 
+  .spidey-image{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+.description{
+    word-wrap: break-word;
+    text-justify: auto;
+    text-align: center;
+}
+
+.work-section  img{
+  transition: 0.2s ease-in-out;
+ opacity: 100%;
+}
+
+.work-section   img:hover{
+  transition: 0.2s ease-in-out;
+   opacity: 70%;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contact-title-header{ 
+  margin-bottom: 4rem;
+}
+
+.svg-1{
+  transition: 0.2s ease-in-out;
+    opacity: 100%;
+    width: 3em;
+}
+.svg-2{
+  transition: 0.2s ease-in-out;
+    opacity: 100%;
+    width: 3em;
+}
+.svg-3{
+  transition: 0.2s ease-in-out;
+    opacity: 100%;
+    width: 3em;
+}
+.svg-4{
+  transition: 0.2s ease-in-out;
+  opacity: 100%;
+  width: 3em;
+}
+
+.svg-1:hover{
+  transition: 0.2s ease-in-out;
+  opacity: 60%;
+}
+.svg-2:hover{
+  transition: 0.2s ease-in-out;
+  opacity: 60%;
+}
+.svg-3:hover{
+  transition: 0.2s ease-in-out;
+  opacity: 60%;
+}
+.svg-4:hover{
+  transition: 0.2s ease-in-out;
+  opacity: 60%;
+}
+
+
+.contact-title{
+    padding: 4rem;
+}
+
+.contact-title-header{
+    text-align: center;
+}
+
+.dots{
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+  width: 10rem;
+  border: 2rem dotted #222831;
+  border-style: none none dotted;
+  opacity: 30%;
+}
+
+
+/* 600px MEDIA BREAKPOINT */
+
+
+
+@media(max-width: 1000px){
+  html{
+    background: linear-gradient(300deg, #222831, #393E46, #00ADB5);
+    background-size: 200% 500%;
+    animation: gradient-animation 12s ease infinite;
+  
+    margin-left: -20rem;
+    margin-right: -20rem;
+
+  }
+  
+  body{
+    text-align: center;
+    
+    width: 100%;
+  }
+  
+  
+  .gradient-background {
+      background: linear-gradient(45deg, #222831, #393E46, #00ADB5);
+      background-size: 200% 200%;
+      animation: gradient-animation 12s ease infinite;
+      box-shadow: 10px 10px 50px #222831;
+    }
+  
+    @keyframes gradient-animation {
+      0% {
+        background-position: 50% 0%;
+      }
+      50% {
+        background-position: 60% 100%;
+      }
+      100% {
+        background-position: 50% 0%;
+      }
+    }
+  
+  h1{
+    font-family: "Chivo Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 9rem;
+    color: #EEEEEE;
+    width: 100%;
+  }
+  
+  h2{
+    font-family: "Chivo Mono", monospace;
+    font-weight: 400;
+    text-align: center;
+    font-size: 7rem;
+    color: #00ADB5;
+    margin: 0;
+    text-shadow: 1px 1px 7px #042f31;
+    box-shadow: 10px 10px 50px #222831;
+    margin-bottom: 2rem;
+    width: 100%;
+    margin: auto;
+  }
+  
+  h3{
+    font-family: "Chivo Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 3rem;
+    color: #00ADB5;
+    margin: 0;
+    
+  }
+
+ 
+  
+  .bold{
+    font-weight: 700;
+    color: #EEEEEE;
+    font-size: 2rem;
+  }
+  
+
+  
+  .header {
+      display: block;
+      margin: auto;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .intro-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-wrap: wrap;
+   
+  }
+
+  .about-section > p {
+    padding: 1.5rem;
+    color: #e4f9ff;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+
+  .resume-button{
+    text-decoration: none;
+    margin: auto;
+    width: 30%;
+    padding: 2rem;
+    letter-spacing: 1px ;
+    font-size: 3rem;
+  }
+
+
+
+  .profile-picture {
+      align-content: center;
+      border-radius: 50%;
+      border-color: rgb(24, 221, 231);
+      border-style: solid;
+      border-width: 6px;
+      height: 40rem;
+      box-shadow: 3px 7px 30px #00ADB5;
+      
+  }
+  
+  .container{
+      display: block;
+      text-align: center;
+      padding-bottom: 2rem;
+      column-gap: 5rem;
+      
+  }
+  
+  .work-section  p{
+    font-family: "Chivo Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    color: #EEEEEE;
+  
+  }
+  
+  .credits-title{
+      text-align: center;
+      padding: 4rem;
+      
+  }
+  
+  img{
+    padding: 0px;
+    border-radius: 10px;
+    margin-top: 2rem;  
+    margin-bottom: 1rem;  
+    box-shadow: 10px 10px 20px rgb(9, 63, 68);
+    height: 70rem;
+  }
+  
+  
+  .personal-section{
+    box-shadow: 10px 10px 50px #222831;
+  }
+  
+  
+  .personal-container{
+    position: relative;
+      display: block;
+      padding-bottom: 3rem;
+      justify-content: center;
+      align-items: center;
+  }
+  
+    .image-personal{
+      border-radius: 10px;   
+      height: 50rem;
+      margin: 5rem;
+      margin-top: 3rem;  
+      margin-bottom: 1rem;  
+      box-shadow: 10px 10px 30px rgb(9, 63, 68);
+    }
+   
+    .spidey-image{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+  
+  .description{
+      word-wrap: break-word;
+      text-justify: auto;
+      text-align: center;
+  }
+  
+  .work-section  img{
+    transition: 0.2s ease-in-out;
+   opacity: 100%;
+  }
+  
+  .work-section   img:hover{
+    transition: 0.2s ease-in-out;
+     opacity: 70%;
+  }
+  
+  .contact-container{
+      justify-content: center;
+      gap: 1rem;
+      padding-bottom: 5rem;
+  }
+  
+  .contact-title-header{ 
+    margin-bottom: 4rem;
+  }
+  
+  .svg-1{
+    padding: 3rem;
+    width: 10rem;
+  }
+  .svg-2{
+    padding: 3rem;
+    width: 10rem;
+  }
+  .svg-3{
+    padding: 3rem;
+    width: 10rem;
+  }
+  .svg-4{
+    padding: 3rem;
+    width: 10rem;
+  }
+  
+  .contact-title{
+      padding: 4rem;
+  }
+  
+  .contact-title-header{
+      text-align: center;
+  }
+  
+  .dots{
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    width: 10rem;
+    border: 2rem dotted #222831;
+    border-style: none none dotted;
+    opacity: 30%;
+  }
+  
+  
+}
+
+@media(max-width: 2250px){
+  html{
+    background: linear-gradient(300deg, #222831, #393E46, #00ADB5);
+    background-size: 200% 500%;
+    animation: gradient-animation 12s ease infinite;
+  
+    margin-left: -20rem;
+    margin-right: -20rem;
+
+  }
+  
+  body{
+    text-align: center;
+    
+    width: 100%;
+  }
+  
+  
+  .gradient-background {
+      background: linear-gradient(45deg, #222831, #393E46, #00ADB5);
+      background-size: 200% 200%;
+      animation: gradient-animation 12s ease infinite;
+      box-shadow: 10px 10px 50px #222831;
+    }
+  
+    @keyframes gradient-animation {
+      0% {
+        background-position: 50% 0%;
+      }
+      50% {
+        background-position: 60% 100%;
+      }
+      100% {
+        background-position: 50% 0%;
+      }
+    }
+  
+  h1{
+    font-family: "Chivo Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 9rem;
+    color: #EEEEEE;
+    width: 100%;
+  }
+  
+  h2{
+    font-family: "Chivo Mono", monospace;
+    font-weight: 400;
+    text-align: center;
+    font-size: 7rem;
+    color: #00ADB5;
+    margin: 0;
+    text-shadow: 1px 1px 7px #042f31;
+    box-shadow: 10px 10px 50px #222831;
+    margin-bottom: 2rem;
+    width: 100%;
+    margin: auto;
+  }
+  
+  h3{
+    font-family: "Chivo Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 3rem;
+    color: #00ADB5;
+    margin: 0;
+    
+  }
+
+ 
+  
+  .bold{
+    font-weight: 700;
+    color: #EEEEEE;
+    font-size: 2rem;
+  }
+  
+
+  
+  .header {
+      display: block;
+      margin: auto;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .intro-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-wrap: wrap;
+   
+  }
+
+  .about-section > p {
+    padding: 1.5rem;
+    color: #e4f9ff;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+
+  .resume-button{
+    text-decoration: none;
+    margin: auto;
+    width: 30%;
+    padding: 2rem;
+    letter-spacing: 1px ;
+    font-size: 3rem;
+  }
+
+
+
+  .profile-picture {
+      align-content: center;
+      border-radius: 50%;
+      border-color: rgb(24, 221, 231);
+      border-style: solid;
+      border-width: 6px;
+      height: 40rem;
+      box-shadow: 3px 7px 30px #00ADB5;
+      
+  }
+  
+  .container{
+      display: block;
+      text-align: center;
+      padding-bottom: 2rem;
+      column-gap: 5rem;
+      
+  }
+  
+  .work-section  p{
+    font-family: "Chivo Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    color: #EEEEEE;
+  
+  }
+  
+  .credits-title{
+      text-align: center;
+      padding: 4rem;
+      
+  }
+  
+  img{
+    padding: 0px;
+    border-radius: 10px;
+    margin-top: 2rem;  
+    margin-bottom: 1rem;  
+    box-shadow: 10px 10px 20px rgb(9, 63, 68);
+    height: 70rem;
+  }
+  
+  
+  .personal-section{
+    box-shadow: 10px 10px 50px #222831;
+  }
+  
+  
+  .personal-container{
+    position: relative;
+      display: block;
+      padding-bottom: 3rem;
+      justify-content: center;
+      align-items: center;
+  }
+  
+    .image-personal{
+      border-radius: 10px;   
+      height: 50rem;
+      margin: 5rem;
+      margin-top: 3rem;  
+      margin-bottom: 1rem;  
+      box-shadow: 10px 10px 30px rgb(9, 63, 68);
+    }
+   
+    .spidey-image{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+  
+  .description{
+      word-wrap: break-word;
+      text-justify: auto;
+      text-align: center;
+  }
+  
+  .work-section  img{
+    transition: 0.2s ease-in-out;
+   opacity: 100%;
+  }
+  
+  .work-section   img:hover{
+    transition: 0.2s ease-in-out;
+     opacity: 70%;
+  }
+  
+  .contact-container{
+      justify-content: center;
+      gap: 1rem;
+      padding-bottom: 5rem;
+  }
+  
+  .contact-title-header{ 
+    margin-bottom: 4rem;
+  }
+  
+  .svg-1{
+    padding: 3rem;
+    width: 10rem;
+  }
+  .svg-2{
+    padding: 3rem;
+    width: 10rem;
+  }
+  .svg-3{
+    padding: 3rem;
+    width: 10rem;
+  }
+  .svg-4{
+    padding: 3rem;
+    width: 10rem;
+  }
+  
+  .contact-title{
+      padding: 4rem;
+  }
+  
+  .contact-title-header{
+      text-align: center;
+  }
+  
+  .dots{
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    width: 10rem;
+    border: 2rem dotted #222831;
+    border-style: none none dotted;
+    opacity: 30%;
+  }
+  
+  
+}
